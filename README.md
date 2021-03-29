@@ -17,22 +17,22 @@ false: crée un environnement de grille de 20 avec aucun bateau.
 L'ajout d'un bateau :
 `
 boolean succes  = Ensemblenavire.add("Porte_Avion", 0, 0, false);
-		System.out.println(succes);
- `
+		System.out.println(succes);`
+		
 Fonction de tir : 
-`
-    System.out.println(Ensemblenavire.toucher(0, 0));
+
+   ` System.out.println(Ensemblenavire.toucher(0, 0));
 		System.out.println(Ensemblenavire.toucher(1, 0));
 		System.out.println(Ensemblenavire.toucher(2, 0));
 		System.out.println(Ensemblenavire.toucher(3, 0));
-		System.out.println(Ensemblenavire.toucher(4, 0));
+		System.out.println(Ensemblenavire.toucher(4, 0));`
     
-result: 
+`result: 
 Case Touché
 Case Touché
 Case Touché
 Case Touché
 Porte_Avion coulé !
-
+`
 `
     
