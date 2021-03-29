@@ -47,7 +47,7 @@ Format accepter pour reconstruire un navire :
 => Reconstruit l'environnement de taille 10 de la grille, avec un bateau (Contre_Torpilleur), Première Case du bateau , X= 1, Y = 1, Orientation : true (Verticale)
 
 Etat du Navire 0 et de sa première box(Case) 0 : Value:00 => False (non détruite)
-Etat du Navire 0 et de sa première box(Case) 1 :  Value:01 => False (non détruite)
+Etat du Navire 0 et de sa deuxième box(Case) 1 :  Value:01 => False (non détruite)
 
 
 
