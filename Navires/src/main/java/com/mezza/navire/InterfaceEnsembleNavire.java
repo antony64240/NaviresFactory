@@ -45,7 +45,7 @@ public interface InterfaceEnsembleNavire {
      * X Y : Position of the First case
      * Orientation : Horizontal / Vertical
      */
-	public boolean addBateau(String name ,int X, int Y, boolean Orientation);
+	public boolean add(String name ,int X, int Y, boolean Orientation);
 	
 	/**
 	 * Check if all boat were destroy

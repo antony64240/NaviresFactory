@@ -47,6 +47,8 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 		this.GenererAleatoirement();
 	}
 	
+	
+	
 	/**
 	    * Builds a set of ships to specification of you Game
 	    * example : 
@@ -77,16 +79,18 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 	    * build 5 ships, one of each
 	    *@param TailleGrille = Size of grid
 	    */
-	public EnsembleNavire(int TailleGrille) {
+	public EnsembleNavire(int TailleGrille, boolean RandomPos) {
 		Navire.setEnsembleNavire(this);
 		this.TailleGrille = TailleGrille;
-		TailleNavire = new ArrayList<Integer>();
-		TailleNavire.add(1);
-		TailleNavire.add(2);
-		TailleNavire.add(3);
-		TailleNavire.add(4);
-		TailleNavire.add(5);
-		this.GenererAleatoirement();
+		if(RandomPos == true) {
+			TailleNavire = new ArrayList<Integer>();
+			TailleNavire.add(1);
+			TailleNavire.add(2);
+			TailleNavire.add(3);
+			TailleNavire.add(4);
+			TailleNavire.add(5);
+			this.GenererAleatoirement();
+		}
 	}
 
 	/**
@@ -95,7 +99,7 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 	    * boats from String Json or Files
 	    */
 	public EnsembleNavire() {
-
+		Navire.setEnsembleNavire(this);
 	}
 
 	@Override
@@ -373,12 +377,12 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 	}
 
 	@Override
-	public boolean addBateau(String name, int X, int Y, boolean Orientation) {
+	public boolean add(String name, int X, int Y, boolean Orientation) {
 		Navire navire = null;
 		switch (name) {
 		case "Porte_Avion":
 			navire = new Porte_Avion(X, Y, Orientation, TailleGrille);
-			if (this.checkNavire(navire)) {
+			if (!this.checkNavire(navire)) {
 				this.add(navire);
 			} else {
 				return false;
@@ -386,7 +390,7 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 			break;
 		case "Croiseur":
 			navire = new Croiseur(X, Y, Orientation, TailleGrille);
-			if (this.checkNavire(navire)) {
+			if (!this.checkNavire(navire)) {
 				this.add(navire);
 			} else {
 				return false;
@@ -394,7 +398,7 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 			break;
 		case "Torpilleur":
 			navire = new Torpilleur(X, Y, Orientation, TailleGrille);
-			if (this.checkNavire(navire)) {
+			if (!this.checkNavire(navire)) {
 				this.add(navire);
 			} else {
 				return false;
@@ -402,7 +406,7 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 			break;
 		case "Sous_Marin":
 			navire = new Sous_Marin(X, Y, Orientation, TailleGrille);
-			if (this.checkNavire(navire)) {
+			if (!this.checkNavire(navire)) {
 				this.add(navire);
 			} else {
 				return false;
@@ -410,7 +414,7 @@ public class EnsembleNavire extends Vector<Navire> implements InterfaceEnsembleN
 			break;
 		case "Contre_Torpilleur":
 			navire = new Contre_Torpilleur(X, Y, Orientation, TailleGrille);
-			if (this.checkNavire(navire)) {
+			if (!this.checkNavire(navire)) {
 				this.add(navire);
 			} else {
 				return false;

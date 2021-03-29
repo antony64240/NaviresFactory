@@ -84,13 +84,20 @@ public class TestNavire {
 		System.out.println(Ensemblenavire.toucher(4, 0));
 	}
 	
-	
-	
-	
 	@Test
-	public void lireJson() {
-		EnsembleNavire Ensemblenavire = new EnsembleNavire(50,31);
+	public void creation() {
+		EnsembleNavire Ensemblenavire = new EnsembleNavire(20,false);
+		System.out.println(Ensemblenavire.toString());
+		
 	}
+	
+	
+	
+	
+//	@Test
+//	public void lireJson() {
+//		EnsembleNavire Ensemblenavire = new EnsembleNavire(50,31);
+//	}
 	
 	
 }
