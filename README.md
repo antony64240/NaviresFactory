@@ -27,12 +27,12 @@ Fonction de tir :
 		System.out.println(Ensemblenavire.toucher(3, 0));
 		System.out.println(Ensemblenavire.toucher(4, 0));
     
-    return : 
+result: 
 Case Touché
 Case Touché
 Case Touché
 Case Touché
 Porte_Avion coulé !
-`
 
+`
     
