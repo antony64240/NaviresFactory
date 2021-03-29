@@ -4,12 +4,12 @@
 Utilisation de la librairie :
 
 
-`EnsembleNavires e = new EnsembleNavire(10,[2,2,3]);` => Creer un environnement de 3 bateaux, 2 = Sous_Marin( 3cases), 3 = Torpilleurs (3 cases) dans une grille de 10 cases
+`EnsembleNavires e = new EnsembleNavire(10,[2,2,3]);` => Creer un environnement de 3 bateaux, 2 = Sous_Marin( 3cases), 3 = Torpilleurs (3 cases) dans une grille de 10 cases  et positionné aléatoirement.
 
-`EnsembleNavires e = new EnsembleNavires(10,5)` => Creer un environnement  de 10 cases avec 5 bateaux de taille aléatoires.
+`EnsembleNavires e = new EnsembleNavires(10,5)` => Creer un environnement  de 10 cases avec 5 bateaux de taille aléatoires et positionné aléatoirement.
 
 `EnsembleNavires e = new EnsembleNavires(20,boolean)` => Creer un environnement de 20 cases,
-true : 5 bateaux de taille différente génération aléatoire, 
+true : 5 bateaux de taille différente génération aléatoire,  et positionné aléatoirement.
 false: crée un environnement de grille de 20 avec aucun bateau.
 
 `EnsembleNavires e = new EnsembleNavires()` => Creer un environnement vide, par défaut de 10 cases
