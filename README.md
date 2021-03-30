@@ -8,7 +8,7 @@ Utilisation de la librairie :
 
 `EnsembleNavires e = new EnsembleNavires(10,5)` => Créer un environnement  de 10 cases avec 5 bateaux de taille aléatoires et positionné aléatoirement.
 
-`EnsembleNavires e = new EnsembleNavires(20,boolean)` => Créer un environnement de 20 cases, true : 5 bateaux de tailles différentes génération aléatoire, est positionné aléatoirement.
+`EnsembleNavires e = new EnsembleNavires(20,boolean)` => Créer un environnement de 20 cases, true : 5 bateaux de tailles différentes génération aléatoire, et positionné aléatoirement.
 false: crée un environnement de grille de 20 avec aucun bateau.
 
 `EnsembleNavires e = new EnsembleNavires()` => Creer un environnement vide, par défaut de 10 cases
