@@ -76,5 +76,7 @@ Etat du Navire 0 et de sa deuxième box(Case) 1 :  Value:01 => False (non détru
 `EnsembleNavire.toFiles("C:\Users\Utilisateur\eclipse-workspace3", Joueur1.getUUID(), 12)` => 
 Dans le fichier C/Users/Utilisateur/ecplise-workspace3/2234-DFZDA-dAFADAFD/12.txt pour cet exemple.
 
+**EnsembleNavire.toFiles( CHEMIN DE BASE + CHEMIN UTILISATEUR + CHEMIN PARTIE)**
+
 ## Reconstruit les navires du fichier précedent.
 `EnsembleNavire e = new EnsembleNavire().FilesToNavires("C:\Users\Utilisateur\eclipse-workspace3", Joueur1.getUUID(), 12);` 
