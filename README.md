@@ -37,11 +37,11 @@ Ici, s'il renvoie faux, ça veut dire que vous essayer de positionner un bateau 
 		
 ## Fonction de tir : 
 
-   ` System.out.println(Ensemblenavire.toucher(0, 0)); `
-		 `System.out.println(Ensemblenavire.toucher(1, 0)); `
-		 `System.out.println(Ensemblenavire.toucher(2, 0)); `
-	 `	System.out.println(Ensemblenavire.toucher(3, 0)); `
-		 `System.out.println(Ensemblenavire.toucher(4, 0)); `
+`System.out.println(Ensemblenavire.toucher(0, 0)); `
+`System.out.println(Ensemblenavire.toucher(1, 0)); `
+`System.out.println(Ensemblenavire.toucher(2, 0)); `
+`System.out.println(Ensemblenavire.toucher(3, 0)); `
+`System.out.println(Ensemblenavire.toucher(4, 0)); `
     
 `result: 
 Case Touché
