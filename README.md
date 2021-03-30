@@ -11,7 +11,7 @@ Utilisation de la librairie :
 `EnsembleNavires e = new EnsembleNavires(20,boolean)` => Créer un environnement de 20 cases, true : 5 bateaux de tailles différentes génération aléatoire, et positionné aléatoirement.
 false: créer un environnement de grille de 20 avec aucun bateau.
 
-`EnsembleNavires e = new EnsembleNavires()` => Créer un environnement vide, à utiliser pour reconstruire un environnement ! 
+`EnsembleNavires e = new EnsembleNavires()` => Créer un environnement vide, à utiliser pour reconstruire un environnement via un files ou Json! 
 
 L'ajout d'un bateau : Ici, s'il renvoie faux, ça veut dire que vous essayer de positionner un bateau sur une case déjà occupée, ou alors qu'il n'y a pas une case d'écart entre vos navires.
 `
