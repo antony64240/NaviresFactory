@@ -33,7 +33,7 @@ Ici, s'il renvoie faux, ça veut dire que vous essayer de positionner un bateau 
 `Ensemblenavire.add("Torpilleur", 0, 0, false);` => 3 Cases
 `Ensemblenavire.add("Sous_Marin", 0, 0, false);` => 3 Cases
 	
-		
+**Ensemblenavire.add( "Nom bateau " , Position en X, Position en Y, Orientation ( False = horizontal, True = Vertical ))**
 		
 ## Fonction de tir : 
 
