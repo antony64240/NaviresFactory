@@ -8,6 +8,7 @@ Utilisation de la librairie :
 
 `EnsembleNavires e = new EnsembleNavires(10,5)` => Créer un environnement  de 10 cases avec 5 bateaux de taille aléatoires et positionné aléatoirement.
 
+/////UTILISER CE CONSTRUCTEUR POUR PERMETTRE AU JOUEUR DE PLACER LEURS BATEAUX OU ILS VEULENTS, et mettre le boolean à false///////
 `EnsembleNavires e = new EnsembleNavires(20,boolean)` => Créer un environnement de 20 cases, true : 5 bateaux de tailles différentes génération aléatoire, et positionné aléatoirement.
 false: créer un environnement de grille de 20 avec aucun bateau.
 
