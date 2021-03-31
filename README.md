@@ -35,6 +35,14 @@ Ici, s'il renvoie faux, ça veut dire que vous essayer de positionner un bateau 
 	
 **Ensemblenavire.add( "Nom bateau " , Position en X, Position en Y, Orientation ( False = horizontal, True = Vertical ))**
 		
+		
+		
+## Obtenir tous les navires détruits  
+ `List<Navire> n = EnsembleNavire.NavireDetruit();`
+`for(CaseNavire Case : n )` => *Boucler sur chaque Case des navires détruit pour récupérer leurs X et Y.*
+*Récupère tous les navires détruits d'un environnement.*
+Peut-être utiliser pour colorier les cases de couleurs différentes lorsqu'un navire est détruit, après reconstruction de la grille par les fichiers de chargement par exemple.
+		
 ## Fonction de tir : 
 
 `System.out.println(Ensemblenavire.toucher(0, 0)); `
