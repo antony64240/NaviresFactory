@@ -60,7 +60,7 @@ Porte_Avion coulé !
 `
 
 ## Retourne le navire au format Json.
-`EnsembleNavire.toJson()` 
+`String json = EnsembleNavire.toJson()` 
 
 
 ##  Reconstruit les navires via un Json.
@@ -68,7 +68,7 @@ Porte_Avion coulé !
 Si vous utilisez Angular ou ReactJS, je vous conseil de gerer la construction et la reconstruction des grilles côtés Serveur(Java) (Cad, envoyer juste des X, et Y à votre API)
 Sinon si vous voulez utiliser cette façon de Jsonnifer vos navires, essayer de comprendre le code de sérialisation (ToJson) pour le reproduire sur Angular, React ect...**
 
-`EnsembleNavire.JsonToNavire()`
+`EnsembleNavire.JsonToNavire(String json)`
 
 **Format accepter pour reconstruire un navire : **
 
